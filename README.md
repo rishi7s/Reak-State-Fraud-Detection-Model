@@ -2,9 +2,9 @@
 Unsupervised Machine Learning Fraud Model on New York Property Valuation Data using Python
 
 ### SUMMARY
-• Built a property tax fraud detection model by computing fraud scores for each property in the dataset using two approaches
-• Analyzed >1 million records, 32 fields to build expert variables; PCA reduced dimensionality to 6 PCs, explaining 94% of variance
-• Trained Autoencoder on Z-scored PCA values and used Euclidian distance to rank order each record by two fraud scores
+* Built a property tax fraud detection model by computing fraud scores for each property in the dataset using two approaches
+* Analyzed >1 million records, 32 fields to build expert variables; PCA reduced dimensionality to 6 PCs, explaining 94% of variance
+* Trained Autoencoder on Z-scored PCA values and used Euclidian distance to rank order each record by two fraud scores
 
 ### BUSINESS PROBLEM
 Property tax evasion and exemption fraud is a problem faced by every government in the world and can have huge implications. Increased instances of property tax fraud cost government agencies millions of dollars in lost revenues and drive taxes higher for communities at-large.
