@@ -1,4 +1,4 @@
-# Real-State-Fraud-Detection-Model
+## Real State Fraud Detection Model
 Unsupervised Machine Learning Fraud Model on New York Property Valuation Data using Python
 
 # SUMMARY
@@ -15,11 +15,11 @@ The objective of this project is to identify fraudulent or anomalous properties 
 # PROJECT OVERVIEW
 The following summarizes the steps entailed to analyze the data and build the fraud detection model:
 
-1. Data Cleaning: This involved cleaning the data and imputing those records which have missing values and zero as values.
-2. Building Expert Variables/Feature Engineering: We built expert variables and standardized the data before inputting them into model.
-3. Dimensionality Reduction: We employed the Principal Component Analysis (PCA) to reduce the dimensions in the data. At the end of this step, we retained 6 Principal Components which explained around 94% of variance in the data.
-4. Fraud Algorithms and Calculating Fraud Scores: The two approaches used to compute the individual Fraud Scores are described as follows:
+1. **Data Cleaning**: This involved cleaning the data and imputing those records which have missing values and zero as values.
+2. **Building Expert** Variables/Feature Engineering: We built expert variables and standardized the data before inputting them into model.
+3. **Dimensionality Reduction**: We employed the Principal Component Analysis (PCA) to reduce the dimensions in the data. At the end of this step, we retained 6 Principal Components which explained around 94% of variance in the data.
+4. **Fraud Algorithms and Calculating Fraud Scores**: The two approaches used to compute the individual Fraud Scores are described as follows:
 • Using Heuristic Function to calculate z-score
 • Using Autoencoder to reproduce the data that we input after reducing dimensionality. The reproduction error is taken as a measure of anomaly. We used Euclidean distance in this case.
-5. Computing Final Fraud Score: The scores from the above methods were used individually to rank order the records in order of their likelihood of being fraudulent or anomalous. The final score was computed by taking the average of the rank orders obtained from the two methods described above.
+5. **Computing Final Fraud Score**: The scores from the above methods were used individually to rank order the records in order of their likelihood of being fraudulent or anomalous. The final score was computed by taking the average of the rank orders obtained from the two methods described above.
 In conclusion, we identified the top 10 anomalous records in the NY property dataset using the above process of anomaly detection. These records were analyzed in great detail to elicit insightful information regarding the anomalous records and provide recommendations for future work.
